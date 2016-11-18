@@ -1,0 +1,306 @@
+body {
+	font-family: 'Indie Flower', cursive;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	min-height: 100%;
+	background-color: #efefef;
+}
+
+.titulo-seccion {
+	font-size: 15px;
+	line-height:22px;
+	font-weight:  800;
+	text-transform: uppercase;
+}
+
+.nombre {
+	font-size:28px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.profesion {
+	color: #777;
+	font-size: 22px;
+	font-weight:500px;
+	line-height:  30px;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 12px;
+	color: #777;
+	line-height: 22px;
+	font-weight: 300px;
+}
+
+.titulo-dato {
+	color: #333;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	display:inline-block;
+	width: 35%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background:white; 
+	border-right: gray;
+}
+
+.valor-dato {
+	color: #666;
+	font-size: 14px;
+	text-align: center;
+	display:inline-block;
+	width: 63%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+}
+
+.seccion-titulo {
+	border-bottom: 1px solid #efefef;
+	padding:  40px 10px 2px 40px;
+	position: relative;
+	clear: both;
+}
+
+.nombre {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.profesion {
+	margin-top: 0px;
+}
+
+
+
+.contenido-seccion {
+	margin: 30px 40px;
+	clear: both;
+}
+
+a {
+text-decoration:none;
+}
+
+.menu {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 44px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #85878b;
+	margin: right;
+
+ }
+
+.item {
+	border-bottom: 1px solid #26292e;
+	padding: 0px;
+}
+
+
+
+ul {
+list-style: none;
+padding-left:0px;
+margin:0;
+}
+
+a:hover .item {
+	color: red;
+}
+
+.contenedor {
+	max-width: 940px;
+	margin: auto;
+	margin-top: 40px;
+	}
+
+.html {
+	height: 100px;
+
+ }
+ *{
+ 	box-sizing: border-box;
+ }
+
+
+.c-izquierda {
+	width: 26%;
+	float: left;
+
+}
+
+.c-derecha {
+	background: white;
+	width: 72%;
+	float: right;
+}
+.imagen-hobbie{
+	width: 100%;
+	min-height:140px;
+	background-position:0;
+	background-size: cover;
+}
+
+.imagen-handball {
+	background-image: url(../img/handball.png);
+	
+	
+}
+
+.imagen-piano {
+	background-image: url(../img/piano.png);
+	
+}
+
+
+
+.item-hobbie{
+	width:43%;
+	margin:0 20px;
+	float: left;
+
+
+}
+
+.texto-hobbie{
+	margin-top: 5px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.w-clearfix:before,
+.w-clearfix:after {
+	content: " ";
+	display: table;
+
+}
+
+.w-clear:after {
+	clear:both;
+}
+
+.hiper {
+	background: #3f3f3f;
+	display: inline-block;
+	width: 100%;
+}
+
+.hiper:hover{
+	background: yellow;
+}
+
+.hiper:hover .color-menu{
+	color:white;
+
+}
+
+.icono {
+	width: 24px;
+	height: 24px;
+	float: left;
+	background-position: 0px 0px;
+	background-size: cover;
+	margin: 10px 20px;
+}
+
+.icono.img-sobre-mi{
+	background-image: url(../img/img-sobre-mi.png);
+}
+
+.icono.img-estudios{
+	background-image:  url(../img/img-estudios.png);
+}
+
+.icono.img-experiencia-laboral{
+	background-image: url(../img/img-experiencia-laboral.png);
+}
+
+
+.icono.img-hobbie{
+	background-image: url(../img/img-hobbie.png);
+}
+
+.yo{
+	width:100%;
+}
+
+.redes{
+	display: block;
+	padding-top: 10px;
+	padding-left: 4px;
+	float: left;
+	display:inline-block;
+}
+
+
+	
+    
+.red-facebook {
+background-image: url(../img/facebook.png);
+
+	padding-top: 50px;
+	padding-left: 50px;
+	width: 24px;
+	height: 24px;
+	float: left;
+	background-position: 0px 0px;
+	background-size: cover;
+	margin: 10px 20px;
+	}
+	
+
+
+
+.red-twitter{
+	background-image: url(../img/twitter.png);
+	
+	padding-top: 50px;
+	padding-left: 50px;
+	width: 24px;
+	height: 24px;
+	float: left;
+	background-position: 0px 0px;
+	background-size: cover;
+	margin: 10px 20px;
+	
+}
+
+
+.listas{
+	width:50%;
+	float:right;
+	border: 1px solid #efefef;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+ .listas .li{
+ 	border-bottom: 1px solid #D3D3D3;
+ 	background-color: #D3D3D3;
+ }
+
+ /*tamaño tipo color*/
+
+  
+img 
+{width: 100%}
+
+
+
+ .linea {
+ 	position: absolute;
+ 	left: 50px;
+ 	top: 55px;
+ 	width: 60px;
+ 	margin-top: 0px;
+ 	padding-right: 1px;
+ 	padding-left: 1px;
+
+ }
+
